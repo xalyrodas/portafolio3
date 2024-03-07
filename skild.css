@@ -1,0 +1,57 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-skills {
+    background-color: #E5E7EB;
+    color: #4B5563;
+    width: 12rem;
+    height: 3rem;
+    margin: auto;
+    margin: 2rem 0 4rem 0;
+    font-size: 1.4rem;
+    border-radius: 1.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skills p {
+    font-size: 1.6rem;
+    margin: 2rem 0px;
+    color: #4B5563; 
+    
+}
+
+.list-skills {
+
+    width: 100%;
+
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .skills{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin: 10rem o;
+    }
+    .list-skills{
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+}
